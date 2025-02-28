@@ -40,8 +40,7 @@ I also have **2+ years of experience in teaching**, helping students understand 
 - **Quick Learning Classroom** – *(Using MERN)* A full-fledged educational platform for students, faculty, and admins with attendance tracking, live lectures, and exam management.  
 
 ### ✅ **Completed Projects**  
-- **[Divine Classes](https://divineclasses.org/)** – Helping students and parents easily  
-  connect with Divine Classes for educational services.  
+- **[Divine Classes](https://divineclasses.org/)** – Helping students and parents easily connect with Divine Classes for educational services.  
 
 ---
 
