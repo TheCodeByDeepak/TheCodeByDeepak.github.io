@@ -2,7 +2,9 @@
 
 🚀 **Educator | Tech Enthusiast**  
 
-I’m a passionate **developer and tutor** who loves building innovative web and mobile applications.**, I aim to create solutions that make a real impact. I also have **4+ years of experience in teaching**, helping students understand complex topics with ease.  
+I’m a passionate **developer and tutor** who loves building innovative web and mobile applications.
+I aim to create solutions that make a real impact. 
+I also have **2+ years of experience in teaching**, helping students understand complex topics with ease.  
 
 ---  
 
@@ -37,7 +39,7 @@ I’m a passionate **developer and tutor** who loves building innovative web and
 - **Quick Learning Classroom** – A full-fledged educational platform for students, faculty, and admins with attendance tracking, live lectures, and exam management.  
 
 ### ✅ **Completed Projects**  
-- **[Divine Classes](https://divineclassess.org/)** – A live educational platform for online tutoring.  
+- **[Divine Classes](https://divineclasses.org/)** – A live educational platform for online tutoring.  
 
 ---
 
