@@ -14,7 +14,7 @@ I also have **2+ years of experience in teaching**, helping students understand 
 - 👨‍🏫 **2+ years of teaching experience** (Awarded Best Tutor!)  
 - 💡 Strong problem-solving & communication skills  
 - 💻 **Passionate about:** Web Development | App Development | AI & ML | Teaching  
-- 🚴‍♂️ Fun fact: I cycle **18 km daily** to college—it keeps me refreshed! 🚲  
+- 🚴‍♂️ Fun fact: I cycle **18 km daily** to college — it keeps me refreshed! 🚲  
 
 ---
 
@@ -36,17 +36,17 @@ I also have **2+ years of experience in teaching**, helping students understand 
 ## 🚀 Projects  
 
 ### 🎯 **Ongoing Projects**  
-- **Quick Learning Classroom** – A full-fledged educational platform for students, faculty, and admins with attendance tracking, live lectures, and exam management.  
+- **Quick Learning Classroom** – (Using MERN)A full-fledged educational platform for students, faculty, and admins with attendance tracking, live lectures, and exam management.  
 
 ### ✅ **Completed Projects**  
-- **[Divine Classes](https://divineclasses.org/)** – A website designed to help students and parents easily reach and connect with Divine Classes for educational services.   
+- **[Divine Classes](https://divineclasses.org/)** – Helping students and parents easily connect with Divine Classes for educational services.    
 
 ---
 
 ## 📫 Let's Connect!  
 
-🔗 **LinkedIn:** https://www.linkedin.com/in/thecodebydeepak
-📧 **Email:** thecodebydeepak@gmail.com
+🔗 **[LinkedIn](https://www.linkedin.com/in/thecodebydeepak)** – Feel free to reach out for collaborations. 
+📧 **[Email](thecodebydeepak@gmail.com)** – I share my tech journey and insights. 
 
 
 ---
