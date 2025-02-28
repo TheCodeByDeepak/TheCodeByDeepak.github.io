@@ -39,14 +39,14 @@ I also have **2+ years of experience in teaching**, helping students understand 
 - **Quick Learning Classroom** – A full-fledged educational platform for students, faculty, and admins with attendance tracking, live lectures, and exam management.  
 
 ### ✅ **Completed Projects**  
-- **[Divine Classes](https://divineclasses.org/)** – A live educational platform for online tutoring.  
+- **[Divine Classes](https://divineclasses.org/)** – A website designed to help students and parents easily reach and connect with Divine Classes for educational services.   
 
 ---
 
 ## 📫 Let's Connect!  
 
-🔗 **LinkedIn:** [Your LinkedIn Profile]  
-📧 **Email:** thecodebydeepak@gmail.com  
+🔗 **LinkedIn:** [https://www.linkedin.com/in/thecodebydeepak]  
+📧 **Email:** [thecodebydeepak@gmail.com]
 
 
 ---
