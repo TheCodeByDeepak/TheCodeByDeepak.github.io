@@ -45,7 +45,7 @@ I also have **2+ years of experience in teaching**, helping students understand 
 
 ## 📫 Let's Connect!  
 
-🔗 **LinkedIn:** [https://www.linkedin.com/in/thecodebydeepak]  
+🔗 **LinkedIn:** https://www.linkedin.com/in/thecodebydeepak
 📧 **Email:** [thecodebydeepak@gmail.com]
 
 
