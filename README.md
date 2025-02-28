@@ -1,4 +1,4 @@
-# 👋 Hi, I’m Deepak Yadav (@TheCodeByDeepak)  
+#👋 Hi, I’m Deepak Yadav
 
 🚀 **Educator | Tech Enthusiast**  
 
