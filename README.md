@@ -34,25 +34,32 @@ I have **2+ years of experience in teaching**, helping students grasp complex co
 
 ---
 
+## 🚧 Ongoing Projects
+
+Currently, I’m focusing on refining my past projects and learning new technologies.  
+Always open to **collaborations**, **freelance opportunities**, or **new project ideas**!
+
+---
+
 ## ✅ Completed Projects
 
 - **Quick Learning Classroom** *(MERN Stack)*  
   A complete classroom management system with role-based access for Admin, Faculty, and Students. Features include attendance tracking, announcements, assignments, fee management, test marks, study materials, real-time chat, blacklist data, and secure classroom joining with approval.  
-  **GitHub Repo:** [QuickLearningClassroom](https://github.com/thecodebydeepak/QuickLearningClassroom)
+  **GitHub Repo:** [Quick Learning Classroom](https://github.com/thecodebydeepak/QuickLearningClassroom)
 
 - **PlaTec Industries Website**  
   A professional website built for a manufacturing company that specializes in PVC Heat Shrinkable products. Showcases company profile, products, and location.  
   **Live Site:** [PlaTec Industries](https://thecodebydeepak.github.io/PlaTecIndustries/)  
-  **GitHub Repo:** [PlaTec Industries Repo](https://github.com/thecodebydeepak/PlaTecIndustries)
+  **GitHub Repo:** [PlaTec Industries](https://github.com/thecodebydeepak/PlaTecIndustries)
 
 - **Divine Classes Website (Redesigned)**  
   A clean, responsive website for a local coaching institute, redesigned for better user experience and modern UI.  
   **Live Site:** [Divine Classes](https://thecodebydeepak.github.io/DivineClasses/)  
-  **GitHub Repo:** [Divine Classes Repo](https://github.com/thecodebydeepak/DivineClasses)
+  **GitHub Repo:** [Divine Classes](https://github.com/thecodebydeepak/DivineClasses)
 
 - **Doctor Appointment System** *(MERN Stack)*  
   A multi-role web app (Patient, Doctor, Admin) for managing appointments, doctor listings, admin approvals, and more. Built for learning real-world use cases and backend integration.  
-  **GitHub Repo:** [DoctorAppointmentSystem](https://github.com/thecodebydeepak/DoctorAppointmentSystem)
+  **GitHub Repo:** [Doctor Appointment System](https://github.com/thecodebydeepak/DoctorAppointmentSystem)
 
 ---
 
