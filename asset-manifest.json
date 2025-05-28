@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TheCodeByDeepak/static/css/main.21445f32.css",
-    "main.js": "/TheCodeByDeepak/static/js/main.7186cdbf.js",
+    "main.js": "/TheCodeByDeepak/static/js/main.31e9654c.js",
     "static/js/488.50a71f00.chunk.js": "/TheCodeByDeepak/static/js/488.50a71f00.chunk.js",
     "static/media/icard.png": "/TheCodeByDeepak/static/media/icard.c3c6460fcdb1483354e5.png",
     "static/media/Project3.jpg": "/TheCodeByDeepak/static/media/Project3.cc12620406444bfd2b07.jpg",
@@ -14,11 +14,11 @@
     "static/media/Project7.jpg": "/TheCodeByDeepak/static/media/Project7.774316563267c99d23cb.jpg",
     "index.html": "/TheCodeByDeepak/index.html",
     "main.21445f32.css.map": "/TheCodeByDeepak/static/css/main.21445f32.css.map",
-    "main.7186cdbf.js.map": "/TheCodeByDeepak/static/js/main.7186cdbf.js.map",
+    "main.31e9654c.js.map": "/TheCodeByDeepak/static/js/main.31e9654c.js.map",
     "488.50a71f00.chunk.js.map": "/TheCodeByDeepak/static/js/488.50a71f00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.21445f32.css",
-    "static/js/main.7186cdbf.js"
+    "static/js/main.31e9654c.js"
   ]
 }
