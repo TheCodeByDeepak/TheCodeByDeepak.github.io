@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.21445f32.css",
-    "main.js": "/static/js/main.2615dbc5.js",
+    "main.js": "/static/js/main.6fcd91d2.js",
     "static/js/488.50a71f00.chunk.js": "/static/js/488.50a71f00.chunk.js",
     "static/media/icard.png": "/static/media/icard.c3c6460fcdb1483354e5.png",
     "static/media/Project3.jpg": "/static/media/Project3.cc12620406444bfd2b07.jpg",
-    "static/media/Deepak_Resume.pdf": "/static/media/Deepak_Resume.7a66ea9078d2e18c0b23.pdf",
+    "static/media/Deepak_Resume.pdf": "/static/media/Deepak_Resume.9be21779b87176cda737.pdf",
     "static/media/Project2.jpg": "/static/media/Project2.900138d84c6b86eecd2c.jpg",
     "static/media/Project1.jpg": "/static/media/Project1.8549871736e21ca3e0d5.jpg",
     "static/media/Project4.jpg": "/static/media/Project4.90f607442209159c9725.jpg",
@@ -14,11 +14,11 @@
     "static/media/Project7.jpg": "/static/media/Project7.774316563267c99d23cb.jpg",
     "index.html": "/index.html",
     "main.21445f32.css.map": "/static/css/main.21445f32.css.map",
-    "main.2615dbc5.js.map": "/static/js/main.2615dbc5.js.map",
+    "main.6fcd91d2.js.map": "/static/js/main.6fcd91d2.js.map",
     "488.50a71f00.chunk.js.map": "/static/js/488.50a71f00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.21445f32.css",
-    "static/js/main.2615dbc5.js"
+    "static/js/main.6fcd91d2.js"
   ]
 }
