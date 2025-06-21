@@ -27,6 +27,8 @@ export default function ProfessionalHeader() {
   const navItems = [
     { name: "Home", path: "/" },
     { name: "Projects", path: "/projects" },
+     { name: "Snapshot", path: "/snapshot" },
+    { name: "Achievements", path: "/achievements" },
     { name: "About", path: "/about" },
   ];
 
