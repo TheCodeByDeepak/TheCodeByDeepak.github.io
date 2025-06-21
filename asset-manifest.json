@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.21445f32.css",
-    "main.js": "/static/js/main.51eeed76.js",
+    "main.css": "/static/css/main.b9c4cc51.css",
+    "main.js": "/static/js/main.ae188f97.js",
     "static/js/488.50a71f00.chunk.js": "/static/js/488.50a71f00.chunk.js",
+    "static/media/26thJan.jpg": "/static/media/26thJan.44727ad2c2643751c9f7.jpg",
+    "static/media/Graduation_Farewell.jpg": "/static/media/Graduation_Farewell.3860a8480db3aa948c28.jpg",
+    "static/media/Academic_Completion_Celebration.jpg": "/static/media/Academic_Completion_Celebration.14c55940da2a584b6bc1.jpg",
     "static/media/icard.png": "/static/media/icard.c3c6460fcdb1483354e5.png",
+    "static/media/Project_Guide_TYCS.jpg": "/static/media/Project_Guide_TYCS.d06970172b1bfc274f71.jpg",
     "static/media/Project3.jpg": "/static/media/Project3.cc12620406444bfd2b07.jpg",
     "static/media/Deepak_Resume.pdf": "/static/media/Deepak_Resume.9be21779b87176cda737.pdf",
     "static/media/Project2.jpg": "/static/media/Project2.900138d84c6b86eecd2c.jpg",
@@ -13,12 +17,12 @@
     "static/media/Project6.jpg": "/static/media/Project6.c357cdfc9eb74d4c6522.jpg",
     "static/media/Project7.jpg": "/static/media/Project7.774316563267c99d23cb.jpg",
     "index.html": "/index.html",
-    "main.21445f32.css.map": "/static/css/main.21445f32.css.map",
-    "main.51eeed76.js.map": "/static/js/main.51eeed76.js.map",
+    "main.b9c4cc51.css.map": "/static/css/main.b9c4cc51.css.map",
+    "main.ae188f97.js.map": "/static/js/main.ae188f97.js.map",
     "488.50a71f00.chunk.js.map": "/static/js/488.50a71f00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21445f32.css",
-    "static/js/main.51eeed76.js"
+    "static/css/main.b9c4cc51.css",
+    "static/js/main.ae188f97.js"
   ]
 }
