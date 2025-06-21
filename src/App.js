@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Contact from "./pages/ContactPage";
 import ScrollToTop from "./components/BackToTopButton";
 import ScrollToTopNav from "./components/ScrollToTop";
+import Snapshot from "./pages/Snapshot";
 import NotFound from './pages/NotFound';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/snapshot" element={<Snapshot/>} />
           <Route path="/about" element={<About />} />
            <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
