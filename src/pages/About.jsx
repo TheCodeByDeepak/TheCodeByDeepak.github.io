@@ -114,40 +114,54 @@ export default function About() {
 <div className="w-full mt-16 flex flex-col md:flex-row gap-10 max-w-5xl mx-auto">
 
   {/* Left: Experience */}
-  <div className="md:w-1/2 border-l-4 border-indigo-500 pl-4">
-    <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-6">Experience</h2>
+ <div className="md:w-1/2 border-l-4 border-indigo-500 pl-4">
+  <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-6">Experience</h2>
 
-    {/* Tutor Experience */}
-    <div className="mb-6">
-      <h3 className="text-xl font-semibold text-indigo-700">Tutor</h3>
-      <p className="text-gray-600 font-medium">Divine Classes</p>
-      <p className="text-sm text-gray-500 mb-2">Jun 2022 – Jun 2024 · 2 yrs 1 mo · On-site</p>
-      <p className="text-gray-700 leading-relaxed">
-        I have 2 years of teaching experience, during which I taught all subjects to students from classes 5th to 8th and specialized in Mathematics and Science for classes 9th and 10th.
-        I focus on building strong conceptual understanding through interactive and student-friendly teaching methods.
-      </p>
-    </div>
-
-    {/* Freelance Developer Experience */}
-    <div>
-      <h3 className="text-xl font-semibold text-indigo-700">Freelance Developer</h3>
-      <p className="text-gray-600 font-medium">Self-Employed</p>
-      <p className="text-sm text-gray-500 mb-2">Jan 2024 – Present · Remote</p>
-      <p className="text-gray-700 leading-relaxed">
-        As a freelance MERN stack developer, I've built responsive web applications for clients. My focus is on delivering clean UI, secure authentication, real-time features, and seamless user experiences.
-      </p>
-    </div>
+  {/* Tutor Experience */}
+  <div className="mb-6">
+    <h3 className="text-xl font-semibold text-indigo-700">Tutor</h3>
+    <p className="text-gray-600 font-medium">Divine Classes</p>
+    <p className="text-sm text-gray-500 mb-2">Jun 2022 – Jun 2024 · 2 yrs 1 mo · On-site</p>
+    <p className="text-gray-700 leading-relaxed">
+      I have 2 years of teaching experience, during which I taught all subjects to students from classes 5th to 8th and specialized in Mathematics and Science for classes 9th and 10th.
+      I focus on building strong conceptual understanding through interactive and student-friendly teaching methods.
+    </p>
   </div>
+
+  {/* Freelance Developer Experience */}
+  <div className="mb-6">
+    <h3 className="text-xl font-semibold text-indigo-700">Freelance Developer</h3>
+    <p className="text-gray-600 font-medium">Self-Employed</p>
+    <p className="text-sm text-gray-500 mb-2">Jan 2024 – Present · Remote</p>
+    <p className="text-gray-700 leading-relaxed">
+      As a freelance MERN stack developer, I've built responsive web applications for clients. My focus is on delivering clean UI, secure authentication, real-time features, and seamless user experiences.
+    </p>
+  </div>
+
+  {/* Subject Matter Expert Experience */}
+  <div>
+    <h3 className="text-xl font-semibold text-indigo-700">Subject Matter Expert – Copy Checking (Freelance)</h3>
+    <p className="text-gray-600 font-medium">PW (PhysicsWallah)</p>
+    <p className="text-sm text-gray-500 mb-2">Jun 2025 – Present · Remote</p>
+    <p className="text-gray-700 leading-relaxed">
+      Working as a Subject Matter Expert (Copy Checking) with Physics Wallah.
+      Responsible for ensuring academic content accuracy, clarity, and alignment with educational objectives.
+    </p>
+  </div>
+</div>
+
 
   {/* Right: Education, Skills, Tools */}
   <div className="md:w-1/2 space-y-8">
 
     {/* Education */}
-    <div>
+   <div>
   <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 flex items-center gap-2">
     Education
   </h2>
-  <div className="border-l-4 border-green-500 pl-4">
+
+  {/* BSc Computer Science */}
+  <div className="border-l-4 border-green-500 pl-4 mb-4">
     <h3 className="text-xl font-semibold text-green-700 flex items-center gap-2">
       <MdSchool className="text-green-700" />
       BSc Computer Science
@@ -155,7 +169,28 @@ export default function About() {
     <p className="text-gray-600 font-medium">Mumbai University</p>
     <p className="text-sm text-gray-500">2022 – 2025</p>
   </div>
+
+  {/* HSC Maharashtra Board */}
+  <div className="border-l-4 border-green-500 pl-4 mb-4">
+    <h3 className="text-xl font-semibold text-green-700 flex items-center gap-2">
+      <MdSchool className="text-green-700" />
+      HSC
+    </h3>
+    <p className="text-gray-600 font-medium">Maharashtra State Board</p>
+    <p className="text-sm text-gray-500">2022</p>
+  </div>
+
+  {/* SSC Maharashtra Board */}
+  <div className="border-l-4 border-green-500 pl-4">
+    <h3 className="text-xl font-semibold text-green-700 flex items-center gap-2">
+      <MdSchool className="text-green-700" />
+      SSC
+    </h3>
+    <p className="text-gray-600 font-medium">Maharashtra State Board</p>
+    <p className="text-sm text-gray-500">2020</p>
+  </div>
 </div>
+
 
     {/* Skills */}
 <div>

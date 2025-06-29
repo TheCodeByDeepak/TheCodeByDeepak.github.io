@@ -11,6 +11,7 @@ import ScrollToTop from "./components/BackToTopButton";
 import ScrollToTopNav from "./components/ScrollToTop";
 import Snapshot from "./pages/Snapshot";
 import NotFound from './pages/NotFound';
+import Achievements from "./pages/Achievements";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/snapshot" element={<Snapshot/>} />
+          <Route path="/achievements" element={<Achievements/>} />
           <Route path="/about" element={<About />} />
            <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
