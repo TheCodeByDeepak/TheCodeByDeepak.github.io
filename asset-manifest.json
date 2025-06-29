@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b9c4cc51.css",
-    "main.js": "/static/js/main.165e6814.js",
+    "main.js": "/static/js/main.5eedaa16.js",
     "static/js/488.50a71f00.chunk.js": "/static/js/488.50a71f00.chunk.js",
     "static/media/26thJan.jpg": "/static/media/26thJan.44727ad2c2643751c9f7.jpg",
     "static/media/Graduation_Farewell.jpg": "/static/media/Graduation_Farewell.3860a8480db3aa948c28.jpg",
@@ -20,14 +20,14 @@
     "static/media/teachers_day_special.jpg": "/static/media/teachers_day_special.b62ec236975038b8f527.jpg",
     "static/media/Project6.jpg": "/static/media/Project6.c357cdfc9eb74d4c6522.jpg",
     "static/media/Project7.jpg": "/static/media/Project7.774316563267c99d23cb.jpg",
-    "static/media/pw.jpg": "/static/media/pw.abf1c5577ded48d10197.jpg",
+    "static/media/pw.jpg": "/static/media/pw.931793b3044859b62ec8.jpg",
     "index.html": "/index.html",
     "main.b9c4cc51.css.map": "/static/css/main.b9c4cc51.css.map",
-    "main.165e6814.js.map": "/static/js/main.165e6814.js.map",
+    "main.5eedaa16.js.map": "/static/js/main.5eedaa16.js.map",
     "488.50a71f00.chunk.js.map": "/static/js/488.50a71f00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9c4cc51.css",
-    "static/js/main.165e6814.js"
+    "static/js/main.5eedaa16.js"
   ]
 }
