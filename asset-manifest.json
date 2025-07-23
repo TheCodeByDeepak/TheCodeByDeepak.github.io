@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b9c4cc51.css",
-    "main.js": "/static/js/main.e80ea3fe.js",
+    "main.css": "/static/css/main.ad257327.css",
+    "main.js": "/static/js/main.2c671688.js",
     "static/js/488.50a71f00.chunk.js": "/static/js/488.50a71f00.chunk.js",
     "static/media/26thJan.jpg": "/static/media/26thJan.44727ad2c2643751c9f7.jpg",
     "static/media/Graduation_Farewell.jpg": "/static/media/Graduation_Farewell.3860a8480db3aa948c28.jpg",
@@ -21,13 +21,14 @@
     "static/media/Project6.jpg": "/static/media/Project6.c357cdfc9eb74d4c6522.jpg",
     "static/media/Project7.jpg": "/static/media/Project7.774316563267c99d23cb.jpg",
     "static/media/pw.jpg": "/static/media/pw.931793b3044859b62ec8.jpg",
+    "static/media/Project8.jpg": "/static/media/Project8.2f44e419e438b4db3c03.jpg",
     "index.html": "/index.html",
-    "main.b9c4cc51.css.map": "/static/css/main.b9c4cc51.css.map",
-    "main.e80ea3fe.js.map": "/static/js/main.e80ea3fe.js.map",
+    "main.ad257327.css.map": "/static/css/main.ad257327.css.map",
+    "main.2c671688.js.map": "/static/js/main.2c671688.js.map",
     "488.50a71f00.chunk.js.map": "/static/js/488.50a71f00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9c4cc51.css",
-    "static/js/main.e80ea3fe.js"
+    "static/css/main.ad257327.css",
+    "static/js/main.2c671688.js"
   ]
 }
