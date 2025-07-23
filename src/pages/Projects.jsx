@@ -135,7 +135,7 @@ const projects = [
   description: "Plan smarter, teach better. Try the demo with Phone No: 1234567890 and OTP: 123456.",
   tech: ["Flutter", "Firebase"],
   progress: "Completed",
-  githubLink: "#",
+  githubLink: "https://github.com/TheCodeByDeepak/LessonPlan",
   liveLink: "#",
   apkLink: "https://drive.google.com/uc?export=download&id=1kdlmk-Ulod5aMPc46ZHHf-FUQr-rPMr5"
 },
