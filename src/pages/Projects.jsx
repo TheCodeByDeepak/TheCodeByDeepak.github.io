@@ -131,8 +131,8 @@ const projects = [
 {
   id: 8,
   img: project8Image,
-  title: "Lesson plan",
-  description: "A modern lesson planning app built with Flutter and Firebase. Use Phone No: 1234567890 & OTP: 123456",
+  title: "Lesson Plan App",
+  description: "Plan smarter, teach better. Try the demo with Phone No: 1234567890 and OTP: 123456.",
   tech: ["Flutter", "Firebase"],
   progress: "Completed",
   githubLink: "#",
