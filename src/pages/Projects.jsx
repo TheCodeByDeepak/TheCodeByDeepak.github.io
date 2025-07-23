@@ -6,6 +6,7 @@ import project4Image from "../assets/Project4.jpg";
 import project5Image from "../assets/Project5.jpg";
 import project6Image from "../assets/Project6.jpg";
 import project7Image from "../assets/Project7.jpg";
+import project8Image from "../assets/Project8.jpg";
 
 import {
   FaGithub,
@@ -17,6 +18,9 @@ import {
 } from "react-icons/fa";
 import { SiMongodb, SiExpress, SiDjango, SiTailwindcss } from "react-icons/si";
 import { MdOutlineRocketLaunch } from "react-icons/md";
+import { SiFlutter, SiFirebase } from "react-icons/si";
+import { FaDownload } from "react-icons/fa";
+
 
 const techIcons = {
   React: <FaReact className="text-blue-500 text-lg mr-1" />,
@@ -27,7 +31,10 @@ const techIcons = {
   Django: <SiDjango className="text-green-800 text-lg mr-1" />,
   Docker: <FaDocker className="text-blue-400 text-lg mr-1" />,
   Tailwind: <SiTailwindcss className="text-teal-400 text-lg mr-1" />,
+  Flutter: <SiFlutter className="text-sky-400 text-lg mr-1" />,
+  Firebase: <SiFirebase className="text-yellow-500 text-lg mr-1" />,
 };
+
 
 
 const progressColors = {
@@ -119,7 +126,20 @@ const projects = [
   progress: "Upcoming",
   githubLink: "#",
   liveLink: "#",
-}
+},
+
+{
+  id: 8,
+  img: project8Image,
+  title: "Lesson plan",
+  description: "A modern lesson planning app built with Flutter and Firebase. Use Phone No: 1234567890 & OTP: 123456",
+  tech: ["Flutter", "Firebase"],
+  progress: "Completed",
+  githubLink: "#",
+  liveLink: "#",
+  apkLink: "https://drive.google.com/uc?export=download&id=1kdlmk-Ulod5aMPc46ZHHf-FUQr-rPMr5"
+},
+
 
 ];
 
@@ -194,19 +214,36 @@ export default function Projects() {
                     <FaGithub className="text-base" />
                     GitHub
                   </a>
+                  {project.id !== 8 && (
                   <a
-                    href={project.liveLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={`flex items-center gap-2 px-4 py-2 rounded-full shadow-sm text-sm font-medium transition-all ${
-                      project.liveLink && project.liveLink !== "#"
-                        ? "bg-purple-100 text-purple-700 hover:bg-purple-200 hover:text-purple-900"
-                        : "opacity-50 cursor-not-allowed pointer-events-none"
-                    }`}
-                  >
+                   href={project.liveLink}
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   className={`flex items-center gap-2 px-4 py-2 rounded-full shadow-sm text-sm font-medium transition-all ${
+                     project.liveLink && project.liveLink !== "#"
+                       ? "bg-purple-100 text-purple-700 hover:bg-purple-200 hover:text-purple-900"
+                       : "opacity-50 cursor-not-allowed pointer-events-none"
+                   }`}
+                 >
                     <FaExternalLinkAlt className="text-base" />
                     Live Preview
-                  </a>
+                 </a>
+                  )}
+
+
+                  {project.apkLink && (
+                  <a
+                     href={project.apkLink}
+                     download
+                     target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 px-4 py-2 rounded-full shadow-sm text-sm font-medium bg-blue-100 text-blue-700 hover:bg-blue-200 hover:text-blue-900"
+                    >
+                      <FaDownload className="text-base" />
+                  Download
+                 </a>
+                  )}
+
                 </div>
               </div>
             </div>
