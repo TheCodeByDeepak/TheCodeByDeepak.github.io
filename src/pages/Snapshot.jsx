@@ -1,15 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-// 🔁 Replace with your own images
 import img1 from "../assets/Project_Guide_TYCS.jpg";
 import img2 from "../assets/26thJan.jpg";
 import img3 from "../assets/Graduation_Farewell.jpg";
 import img4 from "../assets/Academic_Completion_Celebration.jpg";
 import img5 from "../assets/linu_sir.jpg"
 import img6 from "../assets/teachers_day_special.jpg"
-
-
 
 const photos = [
   { img: img1, caption: "16/06/2025 Project Development & Guidance to TYBSc CS Students, Vartak College" },
@@ -19,9 +16,6 @@ const photos = [
   { img: img5, caption: "From Linu Sir" },
   { img: img6, caption: "Teachers Day Special" },
   
-
- 
- 
 ];
 
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-// 📜 Certificate Images (Add more as needed)
+// Certificate Images
 import cert1 from "../assets/project_guide.jpg";
 import cert2 from "../assets/power_bi.jpg";
 import cert3 from "../assets/pw.jpg";

@@ -5,7 +5,7 @@ export default function ProfessionalHeader() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [displayedText, setDisplayedText] = useState("");
   const fullText = "TheCodeByDeepak";
-  const currentIndex = useRef(0); // ✅ FIX: useRef instead of local var
+  const currentIndex = useRef(0); // FIX: useRef instead of local var
 
  useEffect(() => {
   const typingSpeed = 150;
@@ -18,7 +18,7 @@ export default function ProfessionalHeader() {
     }
   }
 
-  type(1); // ✅ Start from index 1 to avoid 1st letter repeat
+  type(1); // Start from index 1 to avoid 1st letter repeat
 
   return () => clearTimeout(timeoutId); // cleanup
 }, []);

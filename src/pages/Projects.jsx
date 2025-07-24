@@ -1,6 +1,6 @@
 import React from "react";
 import project1Image from "../assets/Project1.jpg";
-import project2Image from "../assets/Project2.jpg"; // You can add your own images here
+import project2Image from "../assets/Project2.jpg"; 
 import project3Image from "../assets/Project3.jpg";
 import project4Image from "../assets/Project4.jpg";
 import project5Image from "../assets/Project5.jpg";
@@ -42,10 +42,58 @@ const progressColors = {
   "In Progress": "bg-yellow-100 text-yellow-700",
   Pending: "bg-gray-100 text-gray-700",
   Cancelled: "bg-red-100 text-red-700",
-  Upcoming: "bg-indigo-100 text-indigo-700", // for upcoming projects
+  Upcoming: "bg-indigo-100 text-indigo-700",
 };
 
 const projects = [
+  {
+  id: 8,
+  img: project8Image,
+  title: "Lesson Plan App",
+  description: "A modern and user-friendly Flutter app to help teachers plan their lessons efficiently. Try the demo with Phone No: 1234567890 and OTP: 123456.",
+  tech: ["Flutter", "Firebase"],
+  progress: "Completed",
+  githubLink: "https://github.com/TheCodeByDeepak/LessonPlan",
+  liveLink: "#",
+  apkLink: "https://drive.google.com/uc?export=download&id=1kdlmk-Ulod5aMPc46ZHHf-FUQr-rPMr5"
+  },
+  
+  {
+    id: 6,
+    img: project6Image,
+    title: "Sister Birthday Special",
+    description:
+      "A fun, personalized birthday web app built with React to surprise my sister Karishma on her special day!",
+    tech: ["React", "Tailwind"],
+    progress: "Completed",
+    githubLink: "https://github.com/TheCodeByDeepak/SisterBirthdaySpecial",
+    liveLink: "https://TheCodeByDeepak.github.io/SisterBirthdaySpecial",
+  },
+
+    {
+    id: 2,
+    img: project2Image,
+    title: "Quick Learning Classroom ",
+    description:
+      "Quick Learning is a classroom management web app with role-based access, enabling attendance, assignments, student tracking, and real-time chat.",
+    tech: ["React", "Node.js", "MongoDB"],
+    progress: "Completed",
+    githubLink: "https://github.com/TheCodeByDeepak/QuickLearningClassroom",
+    liveLink: "#",
+  },
+
+   {
+    id: 3,
+    img: project3Image,
+    title: "Divine Classes",
+    description:
+      "Divine Classes Website a responsive, modern platform for a coaching institute that empowers students with quality education and simplified learning experiences.",
+    tech: ["React", "Tailwind"],
+    progress: "Completed",
+    githubLink: "https://github.com/TheCodeByDeepak/DivineClasses",
+    liveLink: "https://thecodebydeepak.github.io/DivineClasses",
+  },
+
   {
     id: 1,
     img: project1Image,
@@ -57,28 +105,7 @@ const projects = [
     githubLink: "https://github.com/TheCodeByDeepak/DoctorAppointmentSystem",
     liveLink: "#",
   },
-  {
-    id: 2,
-    img: project2Image,
-    title: "Quick Learning Classroom ",
-    description:
-      "Quick Learning is a classroom management web app with role-based access, enabling attendance, assignments, student tracking, and real-time chat.",
-    tech: ["React", "Node.js", "MongoDB"],
-    progress: "Completed",
-    githubLink: "https://github.com/TheCodeByDeepak/QuickLearningClassroom",
-    liveLink: "#",
-  },
-  {
-    id: 3,
-    img: project3Image,
-    title: "Divine Classes",
-    description:
-      "Divine Classes Website a responsive, modern platform for a coaching institute that empowers students with quality education and simplified learning experiences.",
-    tech: ["React", "Tailwind"],
-    progress: "Completed",
-    githubLink: "https://github.com/TheCodeByDeepak/DivineClasses",
-    liveLink: "https://thecodebydeepak.github.io/DivineClasses",
-  },
+
     {
     id: 4,
     img: project4Image,
@@ -103,19 +130,6 @@ const projects = [
     liveLink: "https://TheCodeByDeepak.github.io/QuickInnovation",
   },
 
-  
-  {
-    id: 6,
-    img: project6Image,
-    title: "Sister Birthday Special",
-    description:
-      "A fun, personalized birthday web app built with React to surprise my sister Karishma on her special day!",
-    tech: ["React", "Tailwind"],
-    progress: "Completed",
-    githubLink: "https://github.com/TheCodeByDeepak/SisterBirthdaySpecial",
-    liveLink: "https://TheCodeByDeepak.github.io/SisterBirthdaySpecial",
-  },
-
   {
   id: 7,
   img: project7Image,
@@ -128,17 +142,7 @@ const projects = [
   liveLink: "#",
 },
 
-{
-  id: 8,
-  img: project8Image,
-  title: "Lesson Plan App",
-  description: "Plan smarter, teach better. Try the demo with Phone No: 1234567890 and OTP: 123456.",
-  tech: ["Flutter", "Firebase"],
-  progress: "Completed",
-  githubLink: "https://github.com/TheCodeByDeepak/LessonPlan",
-  liveLink: "#",
-  apkLink: "https://drive.google.com/uc?export=download&id=1kdlmk-Ulod5aMPc46ZHHf-FUQr-rPMr5"
-},
+
 
 
 ];

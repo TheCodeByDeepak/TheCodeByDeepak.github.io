@@ -109,7 +109,7 @@ export default function About() {
           </div>
           
         </div>
-        {/* Experience Section aligned left */}
+              {/* Experience Section aligned left */}
 {/* Wrap Experience and Education/Skills/Tools side by side */}
 <div className="w-full mt-16 flex flex-col md:flex-row gap-10 max-w-5xl mx-auto">
 
