@@ -53,7 +53,7 @@ const projects = [
     img: project9Image,
     title: "Spring Hub India",
     description:
-      "A fun, personalized birthday web app built with React to surprise my sister Karishma on her special day!",
+      "Specializing in manufacturing precision springs with unmatched quality, durability, and trust. ",
     tech: ["React", "Tailwind"],
     progress: "Completed",
     githubLink: "",
