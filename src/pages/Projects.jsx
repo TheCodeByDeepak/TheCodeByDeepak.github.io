@@ -3,10 +3,12 @@ import project1Image from "../assets/Project1.jpg";
 import project2Image from "../assets/Project2.jpg"; 
 import project3Image from "../assets/Project3.jpg";
 import project4Image from "../assets/Project4.jpg";
-import project5Image from "../assets/Project5.jpg";
+import project5Image from "../assets/Project5.png";
 import project6Image from "../assets/Project6.jpg";
 import project7Image from "../assets/Project7.jpg";
 import project8Image from "../assets/Project8.jpg";
+import project9Image from "../assets/Project9.png";
+
 
 import {
   FaGithub,
@@ -46,6 +48,18 @@ const progressColors = {
 };
 
 const projects = [
+  {
+    id: 9,
+    img: project9Image,
+    title: "Spring Hub India",
+    description:
+      "A fun, personalized birthday web app built with React to surprise my sister Karishma on her special day!",
+    tech: ["React", "Tailwind"],
+    progress: "Completed",
+    githubLink: "",
+    liveLink: "https://springhubindia.com",
+  },
+
   {
   id: 8,
   img: project8Image,
