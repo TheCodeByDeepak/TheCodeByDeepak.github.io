@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ad257327.css",
-    "main.js": "/static/js/main.c38a6078.js",
+    "main.css": "/static/css/main.8b188a8c.css",
+    "main.js": "/static/js/main.67eb8e4c.js",
     "static/js/488.50a71f00.chunk.js": "/static/js/488.50a71f00.chunk.js",
     "static/media/26thJan.jpg": "/static/media/26thJan.44727ad2c2643751c9f7.jpg",
     "static/media/Graduation_Farewell.jpg": "/static/media/Graduation_Farewell.3860a8480db3aa948c28.jpg",
@@ -18,18 +18,20 @@
     "static/media/power_bi.jpg": "/static/media/power_bi.ac750c9ddf69e423c9d9.jpg",
     "static/media/Project4.jpg": "/static/media/Project4.90f607442209159c9725.jpg",
     "static/media/teachers_day_special.jpg": "/static/media/teachers_day_special.b62ec236975038b8f527.jpg",
+    "static/media/Courteous_Student.jpg": "/static/media/Courteous_Student.828978cba4da9627152d.jpg",
     "static/media/Project6.jpg": "/static/media/Project6.c357cdfc9eb74d4c6522.jpg",
     "static/media/Project5.png": "/static/media/Project5.9df80bdcefc5f1dfdfcd.png",
     "static/media/Project7.jpg": "/static/media/Project7.774316563267c99d23cb.jpg",
+    "static/media/Regular_Student.jpg": "/static/media/Regular_Student.47a929afd072d7246af7.jpg",
     "static/media/pw.jpg": "/static/media/pw.931793b3044859b62ec8.jpg",
     "static/media/Project8.jpg": "/static/media/Project8.2f44e419e438b4db3c03.jpg",
     "index.html": "/index.html",
-    "main.ad257327.css.map": "/static/css/main.ad257327.css.map",
-    "main.c38a6078.js.map": "/static/js/main.c38a6078.js.map",
+    "main.8b188a8c.css.map": "/static/css/main.8b188a8c.css.map",
+    "main.67eb8e4c.js.map": "/static/js/main.67eb8e4c.js.map",
     "488.50a71f00.chunk.js.map": "/static/js/488.50a71f00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad257327.css",
-    "static/js/main.c38a6078.js"
+    "static/css/main.8b188a8c.css",
+    "static/js/main.67eb8e4c.js"
   ]
 }
