@@ -20,7 +20,7 @@ module.exports = {
       },
       animation: {
         waveSwing: 'waveSwing 11s ease-in-out',
-        rocketLaunch: 'rocket 2s ease-in-out infinite',
+        
       },
     },
   },

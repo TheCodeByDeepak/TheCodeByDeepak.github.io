@@ -68,7 +68,7 @@ export default function HomePage() {
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.9, duration: 0.7, ease: "easeOut" }}
 >
-  I’m a passionate web developer who loves crafting clean, user-friendly websites.
+  I’m a passionate developer who loves crafting clean, user-friendly Websites & Mobile Apps.
 </motion.p>
 <motion.p
   className="mt-3 text-gray-500 italic text-sm sm:text-base max-w-lg mx-auto"
@@ -76,7 +76,7 @@ export default function HomePage() {
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 1.1, duration: 0.7, ease: "easeOut" }}
 >
-  From Whiteboard to Web App | Developer with a Mission & Tutor with a Vision
+  From Whiteboard to Web & Mobile Apps | Developer with a Mission & Tutor with a Vision
 </motion.p>
 
       </motion.div>
