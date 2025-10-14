@@ -5,12 +5,18 @@ import { motion } from "framer-motion";
 import cert1 from "../assets/project_guide.jpg";
 import cert2 from "../assets/power_bi.jpg";
 import cert3 from "../assets/pw.jpg";
+import Courteous_Student from "../assets/Courteous_Student.jpg"
+import Regular_Student from "../assets/Regular_Student.jpg"
+
 
 
 const certificates = [
 { img: cert3, caption: "Physics Wallah (PW) Subject Matter Expert- Copy Checking Freelancer (June 2025)" },
-  { img: cert1, caption: "Project Guidance – TYBSc CS, Vartak College (16/06/2025)" },
-   { img: cert2, caption: "Power BI 15-hrs Course, Vartak College (June 2024)" },
+{ img: cert1, caption: "Project Guidance – TYBSc CS, Vartak College (16/06/2025)" },
+{ img: cert2, caption: "Power BI 15-hrs Course, Vartak College (June 2024)" },
+{ img: Courteous_Student, caption: "Courteous Student of the Year 2019 - 20 T.A.H.S" },
+{ img: Regular_Student, caption: "Regular Student of the Year 2019 - 20 T.A.H.S" },
+
    
  
 ];
