@@ -1,11 +1,7 @@
 import React from "react";
 import project1Image from "../assets/Project1.jpg";
 import project2Image from "../assets/Project2.jpg"; 
-import project3Image from "../assets/Project3.jpg";
-import project4Image from "../assets/Project4.jpg";
-import project5Image from "../assets/Project5.png";
 import project6Image from "../assets/Project6.jpg";
-import project7Image from "../assets/Project7.jpg";
 import project8Image from "../assets/Project8.jpg";
 import project9Image from "../assets/Project9.png";
 
@@ -96,18 +92,6 @@ const projects = [
     liveLink: "#",
   },
 
-   {
-    id: 3,
-    img: project3Image,
-    title: "Divine Classes",
-    description:
-      "Divine Classes Website a responsive, modern platform for a coaching institute that empowers students with quality education and simplified learning experiences.",
-    tech: ["React", "Tailwind"],
-    progress: "Completed",
-    githubLink: "https://github.com/TheCodeByDeepak/DivineClasses",
-    liveLink: "https://thecodebydeepak.github.io/DivineClasses",
-  },
-
   {
     id: 1,
     img: project1Image,
@@ -119,42 +103,6 @@ const projects = [
     githubLink: "https://github.com/TheCodeByDeepak/DoctorAppointmentSystem",
     liveLink: "#",
   },
-
-    {
-    id: 4,
-    img: project4Image,
-    title: "PlaTec Industries",
-    description:
-      "PlaTec Industries website, is a responsive web project represents the digital face of a well-established industry leader in specialized packaging solutions.",
-    tech: ["React", "Tailwind"],
-    progress: "Pending",
-    githubLink: "https://github.com/TheCodeByDeepak/PlaTecIndustries",
-    liveLink: "https://thecodebydeepak.github.io/PlaTecIndustries",
-  },
-
-  {
-    id: 5,
-    img: project5Image,
-    title: "Quick Innovation",
-    description:
-      "Quick Innovation is an organization that provides all types of tech solutions. This website is currently under development.",
-    tech: ["React", "Tailwind"],
-    progress: "In Progress",
-    githubLink: "#",
-    liveLink: "https://TheCodeByDeepak.github.io/QuickInnovation",
-  },
-
-  {
-  id: 7,
-  img: project7Image,
-  title: "Surya Enterprises",
-  description:
-    "Surya Enterprises, is a well-established industry leader in Export more than 100 products.",
-  tech: ["React", "Tailwind"],
-  progress: "Upcoming",
-  githubLink: "#",
-  liveLink: "#",
-},
 
 
 
