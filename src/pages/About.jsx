@@ -122,6 +122,18 @@ export default function About() {
  <div className="md:w-1/2 -pl-2">
   <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-6">Experience</h2>
 
+  {/* Robotics Teacher - EduPro Learning */}
+  <div className="border-l-4 border-indigo-500 pl-4 mb-6">
+    <h3 className="text-xl font-semibold text-indigo-700">Robotics Teacher</h3>
+    <p className="text-gray-600 font-medium">EduPro Learning</p>
+    <p className="text-sm text-gray-500 mb-2">November 2025 – Present · On-site</p>
+    <p className="text-gray-700 leading-relaxed">
+      I have joined EduPro Learning, an educational organization that has placed me as a Robotics Teacher at S.L. Porwal English High School.
+      In this role, I teach robotics to primary section students using robotic kits to perform practical experiments.
+     
+    </p>
+  </div>
+
   {/* Subject Matter Expert Experience */}
   <div className="border-l-4 border-indigo-500 pl-4 mb-6">
     <h3 className="text-xl font-semibold text-indigo-700">Subject Matter Expert – Copy Checking (Freelance)</h3>
@@ -164,6 +176,16 @@ export default function About() {
   <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 flex items-center gap-2">
     Education
   </h2>
+
+  {/* Msc Computer Science */}
+  <div className="border-l-4 border-green-500 pl-4 mb-4">
+    <h3 className="text-xl font-semibold text-green-700 flex items-center gap-2">
+      
+      Msc Computer Science
+    </h3>
+    <p className="text-gray-600 font-medium">Mumbai University</p>
+    <p className="text-sm text-gray-500">2025 – 2027</p>
+  </div>
 
   {/* BSc Computer Science */}
   <div className="border-l-4 border-green-500 pl-4 mb-4">
