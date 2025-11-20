@@ -1,6 +1,8 @@
 import React from "react";
 import hangingImage from "../assets/icard.png";
 import { FaGitAlt, FaCode, FaDatabase, FaCloud, FaRocket  } from "react-icons/fa";
+import { MdOutlineSmartToy } from "react-icons/md";
+
 import { SiReact, SiJsonwebtokens, SiSocketdotio, SiTailwindcss, SiFlutter } from "react-icons/si";
 
 
@@ -245,6 +247,11 @@ export default function About() {
       <SiTailwindcss className="text-blue-500" />
       Responsive & Accessible UI Design
     </li>
+    <li className="flex items-center gap-2">
+  <MdOutlineSmartToy className="text-red-400" />
+  Robotics Teaching (STEM Education)
+</li>
+
   </ul>
 </div>
 
