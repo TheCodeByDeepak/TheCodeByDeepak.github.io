@@ -128,7 +128,7 @@ export default function About() {
   <div className="border-l-4 border-indigo-500 pl-4 mb-6">
     <h3 className="text-xl font-semibold text-indigo-700">Robotics Teacher</h3>
     <p className="text-gray-600 font-medium">EduPro Learning</p>
-    <p className="text-sm text-gray-500 mb-2">November 2025 – Present · On-site</p>
+    <p className="text-sm text-gray-500 mb-2">November 2025 - Present · On-site</p>
     <p className="text-gray-700 leading-relaxed">
       I have joined EduPro Learning, an educational organization that has placed me as a Robotics Teacher at S.L. Porwal English High School.
       In this role, I teach robotics to primary section students using robotic kits to perform practical experiments.
@@ -138,9 +138,9 @@ export default function About() {
 
   {/* Subject Matter Expert Experience */}
   <div className="border-l-4 border-indigo-500 pl-4 mb-6">
-    <h3 className="text-xl font-semibold text-indigo-700">Subject Matter Expert – Copy Checking (Freelance)</h3>
+    <h3 className="text-xl font-semibold text-indigo-700">Subject Matter Expert - Copy Checking (Freelance)</h3>
     <p className="text-gray-600 font-medium">PW (PhysicsWallah)</p>
-    <p className="text-sm text-gray-500 mb-2">Jun 2025 – Present · Remote</p>
+    <p className="text-sm text-gray-500 mb-2">Jun 2025 - Present · Remote</p>
     <p className="text-gray-700 leading-relaxed">
       Working as a Subject Matter Expert (Copy Checking) with Physics Wallah.
       Responsible for ensuring academic content accuracy, clarity, and alignment with educational objectives.
@@ -151,7 +151,7 @@ export default function About() {
   <div className="border-l-4 border-indigo-500 pl-4 mb-6">
     <h3 className="text-xl font-semibold text-indigo-700">Freelance Developer</h3>
     <p className="text-gray-600 font-medium">Self-Employed</p>
-    <p className="text-sm text-gray-500 mb-2">Jan 2024 – Present · Remote</p>
+    <p className="text-sm text-gray-500 mb-2">Jan 2024 - Present · Remote</p>
     <p className="text-gray-700 leading-relaxed">
       As a freelance MERN stack developer, I've built responsive web applications for clients. My focus is on delivering clean UI, secure authentication, real-time features, and seamless user experiences.
     </p>
@@ -161,7 +161,7 @@ export default function About() {
   <div className="border-l-4 border-indigo-500 pl-4 mb-6">
     <h3 className="text-xl font-semibold text-indigo-700">Tutor</h3>
     <p className="text-gray-600 font-medium">Divine Classes</p>
-    <p className="text-sm text-gray-500 mb-2">Jun 2022 – Jun 2024 · 2 yrs 1 mo · On-site</p>
+    <p className="text-sm text-gray-500 mb-2">Jun 2022 - Jun 2024 · 1 yrs 11 months · On-site</p>
     <p className="text-gray-700 leading-relaxed">
       I have 2 years of teaching experience, during which I taught all subjects to students from classes 5th to 8th and specialized in Mathematics and Science for classes 9th and 10th.
       
@@ -186,7 +186,7 @@ export default function About() {
       Msc Computer Science
     </h3>
     <p className="text-gray-600 font-medium">Mumbai University</p>
-    <p className="text-sm text-gray-500">2025 – 2027</p>
+    <p className="text-sm text-gray-500">2025 - 2027</p>
   </div>
 
   {/* BSc Computer Science */}
@@ -196,7 +196,7 @@ export default function About() {
       BSc Computer Science
     </h3>
     <p className="text-gray-600 font-medium">Mumbai University</p>
-    <p className="text-sm text-gray-500">2022 – 2025</p>
+    <p className="text-sm text-gray-500">2022 - 2025</p>
   </div>
 
   {/* HSC Maharashtra Board */}
@@ -248,9 +248,9 @@ export default function About() {
       Responsive & Accessible UI Design
     </li>
     <li className="flex items-center gap-2">
-  <MdOutlineSmartToy className="text-red-400" />
-  Robotics Teaching (STEM Education)
-</li>
+     <MdOutlineSmartToy className="text-red-400" />
+      Robotics Teaching (STEM Education)
+    </li>
 
   </ul>
 </div>
