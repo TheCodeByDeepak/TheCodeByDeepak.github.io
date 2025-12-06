@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.1c428cc4.css",
-    "main.js": "/static/js/main.47fcc968.js",
+    "main.js": "/static/js/main.d594eea1.js",
     "static/js/488.50a71f00.chunk.js": "/static/js/488.50a71f00.chunk.js",
     "static/media/26thJan.jpg": "/static/media/26thJan.44727ad2c2643751c9f7.jpg",
     "static/media/Graduation_Farewell.jpg": "/static/media/Graduation_Farewell.3860a8480db3aa948c28.jpg",
     "static/media/Academic_Completion_Celebration.jpg": "/static/media/Academic_Completion_Celebration.14c55940da2a584b6bc1.jpg",
     "static/media/linu_sir.jpg": "/static/media/linu_sir.62984b36e01d42cb1557.jpg",
     "static/media/icard.png": "/static/media/icard.c3c6460fcdb1483354e5.png",
-    "static/media/Deepak_Resume.pdf": "/static/media/Deepak_Resume.554b14d533f5ab2851d4.pdf",
+    "static/media/Deepak_Resume.pdf": "/static/media/Deepak_Resume.77e00157e931585b2223.pdf",
     "static/media/Project_Guide_TYCS.jpg": "/static/media/Project_Guide_TYCS.d06970172b1bfc274f71.jpg",
     "static/media/project_guide.jpg": "/static/media/project_guide.44c6208a46f8ea25da48.jpg",
     "static/media/EduPro.jpg": "/static/media/EduPro.2bd30a5deb427342c09a.jpg",
@@ -24,11 +24,11 @@
     "static/media/Project8.jpg": "/static/media/Project8.2f44e419e438b4db3c03.jpg",
     "index.html": "/index.html",
     "main.1c428cc4.css.map": "/static/css/main.1c428cc4.css.map",
-    "main.47fcc968.js.map": "/static/js/main.47fcc968.js.map",
+    "main.d594eea1.js.map": "/static/js/main.d594eea1.js.map",
     "488.50a71f00.chunk.js.map": "/static/js/488.50a71f00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c428cc4.css",
-    "static/js/main.47fcc968.js"
+    "static/js/main.d594eea1.js"
   ]
 }
