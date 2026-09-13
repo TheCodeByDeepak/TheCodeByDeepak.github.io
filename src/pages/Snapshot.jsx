@@ -7,6 +7,9 @@ import img3 from "../assets/Graduation_Farewell.jpg";
 import img4 from "../assets/Academic_Completion_Celebration.jpg";
 import img5 from "../assets/linu_sir.jpg"
 import img6 from "../assets/teachers_day_special.jpg"
+import img7 from "../assets/VIP Pass.jpeg"
+import img8 from "../assets/TAHS.jpeg"
+import img9 from "../assets/Robotics Lab.jpeg"
 
 const photos = [
   { img: img1, caption: "16/06/2025 Project Development & Guidance to TYBSc CS Students, Vartak College" },
@@ -15,6 +18,9 @@ const photos = [
   { img: img4, caption: "Academic Completion Celebration with my students at Divine Classes, 06/04/2024" },
   { img: img5, caption: "From Linu Sir" },
   { img: img6, caption: "Teachers Day Special" },
+  { img: img7, caption: "Cute Handmade Invitation" },
+  { img: img8, caption: "#T.A.H.S Memories" },
+  { img: img9, caption: "#Robotics Lab" },
 
   
 ];
