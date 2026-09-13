@@ -140,7 +140,7 @@ export default function About() {
   <div className="border-l-4 border-indigo-500 pl-4 mb-6">
     <h3 className="text-xl font-semibold text-indigo-700">Subject Matter Expert - Copy Checking (Freelance)</h3>
     <p className="text-gray-600 font-medium">PW (PhysicsWallah)</p>
-    <p className="text-sm text-gray-500 mb-2">Jun 2025 - Present · Remote</p>
+    <p className="text-sm text-gray-500 mb-2">Jun 2025 - Feb 2026 · 9 months · Remote</p>
     <p className="text-gray-700 leading-relaxed">
       Working as a Subject Matter Expert (Copy Checking) with Physics Wallah.
       Responsible for ensuring academic content accuracy, clarity, and alignment with educational objectives.
@@ -151,7 +151,7 @@ export default function About() {
   <div className="border-l-4 border-indigo-500 pl-4 mb-6">
     <h3 className="text-xl font-semibold text-indigo-700">Freelance Developer</h3>
     <p className="text-gray-600 font-medium">Self-Employed</p>
-    <p className="text-sm text-gray-500 mb-2">Jan 2024 - Present · Remote</p>
+    <p className="text-sm text-gray-500 mb-2">Jan 2025 - Present · Remote</p>
     <p className="text-gray-700 leading-relaxed">
       As a freelance MERN stack developer, I've built responsive web applications for clients. My focus is on delivering clean UI, secure authentication, real-time features, and seamless user experiences.
     </p>
