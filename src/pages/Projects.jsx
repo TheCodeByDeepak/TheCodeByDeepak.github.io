@@ -4,7 +4,7 @@ import project2Image from "../assets/Project2.jpg";
 import project6Image from "../assets/Project6.jpg";
 import project8Image from "../assets/Project8.jpg";
 import project9Image from "../assets/Project9.png";
-
+import project10Image from "../assets/Project10.png";
 
 import {
   FaGithub,
@@ -44,6 +44,18 @@ const progressColors = {
 };
 
 const projects = [
+  {
+  id: 10,
+  img: project10Image,
+  title: "Pranjal Engineering Works",
+  description:
+    "A Flutter and Firebase-based business management application for handling customers, products, invoices, payments, reports, employees, and salary management.",
+  tech: ["Flutter", "Firebase"],
+  progress: "Completed",
+  githubLink: "",
+  apkLink: "",
+  },
+
   {
     id: 9,
     img: project9Image,
