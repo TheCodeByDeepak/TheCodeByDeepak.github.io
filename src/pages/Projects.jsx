@@ -54,7 +54,8 @@ const projects = [
   progress: "Completed",
   githubLink: "",
   apkLink: "",
-  },
+  showDisabledDownload: true,
+},
 
   {
     id: 9,
@@ -209,18 +210,28 @@ export default function Projects() {
                   )}
 
 
-                  {project.apkLink && (
-                  <a
-                     href={project.apkLink}
-                     download
-                     target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 px-4 py-2 rounded-full shadow-sm text-sm font-medium bg-blue-100 text-blue-700 hover:bg-blue-200 hover:text-blue-900"
-                    >
-                      <FaDownload className="text-base" />
-                  Download
-                 </a>
-                  )}
+                  {project.apkLink ? (
+  <a
+    href={project.apkLink}
+    download
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 px-4 py-2 rounded-full shadow-sm text-sm font-medium bg-blue-100 text-blue-700 hover:bg-blue-200 hover:text-blue-900"
+  >
+    <FaDownload className="text-base" />
+    Download
+  </a>
+) : project.showDisabledDownload ? (
+  <button
+    type="button"
+    disabled
+    className="flex items-center gap-2 px-4 py-2 rounded-full shadow-sm text-sm font-medium bg-gray-100 text-gray-400 cursor-not-allowed"
+    title="Download is currently unavailable"
+  >
+    <FaDownload className="text-base" />
+    Download
+  </button>
+) : null}
 
                 </div>
               </div>
