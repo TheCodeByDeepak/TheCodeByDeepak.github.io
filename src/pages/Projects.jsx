@@ -59,7 +59,7 @@ const projects = [
   progress: "Completed",
   githubLink: "",
   liveLink: "#",
-  apkLink: "https://drive.google.com/file/d/1kuwUwrbM5gL6I1JlgjQkytQrw1JoAItv/view?usp=drive_link",
+  apkLink: "https://drive.google.com/file/d/10VQmbMXubKIV7cwWbFKlKrK2A-kfsp90/view?usp=drive_link",
 },
 
   {
