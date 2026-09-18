@@ -1,8 +1,8 @@
 import React from "react";
 import project1Image from "../assets/Project1.jpg";
-import project2Image from "../assets/Project2.jpg"; 
+import project2Image from "../assets/Project2.jpg";
 import project6Image from "../assets/Project6.jpg";
-import project8Image from "../assets/Project8.jpg";
+import project8Image from "../assets/Project8.png";
 import project9Image from "../assets/Project9.png";
 import project10Image from "../assets/Project10.png";
 
@@ -14,11 +14,18 @@ import {
   FaPython,
   FaDocker,
 } from "react-icons/fa";
-import { SiMongodb, SiExpress, SiDjango, SiTailwindcss } from "react-icons/si";
-import { MdOutlineRocketLaunch } from "react-icons/md";
-import { SiFlutter, SiFirebase } from "react-icons/si";
-import { FaDownload } from "react-icons/fa";
 
+import {
+  SiMongodb,
+  SiExpress,
+  SiDjango,
+  SiTailwindcss,
+  SiFlutter,
+  SiFirebase,
+} from "react-icons/si";
+
+import { MdOutlineRocketLaunch } from "react-icons/md";
+import { FaDownload } from "react-icons/fa";
 
 const techIcons = {
   React: <FaReact className="text-blue-500 text-lg mr-1" />,
@@ -33,8 +40,6 @@ const techIcons = {
   Firebase: <SiFirebase className="text-yellow-500 text-lg mr-1" />,
 };
 
-
-
 const progressColors = {
   Completed: "bg-green-100 text-green-700",
   "In Progress": "bg-yellow-100 text-yellow-700",
@@ -45,42 +50,46 @@ const progressColors = {
 
 const projects = [
   {
-  id: 10,
-  img: project10Image,
-  title: "Pranjal Engineering Works",
+  id: 8,
+  img: project8Image,
+  title: "The Mystery Signal",
   description:
-    "A Flutter and Firebase-based business management application for handling customers, products, invoices, payments, reports, employees, and salary management.",
-  tech: ["Flutter", "Firebase"],
+    "A personalized Flutter birthday mystery where a mysterious signal guides an animated constellation journey to a special reveal on 12 October.",
+  tech: ["Flutter", "Dart", "AudioPlayers"],
   progress: "Completed",
   githubLink: "",
-  apkLink: "",
-  showDisabledDownload: true,
+  liveLink: "#",
+  apkLink: "https://drive.google.com/file/d/1kuwUwrbM5gL6I1JlgjQkytQrw1JoAItv/view?usp=drive_link",
 },
+
+  {
+    id: 10,
+    img: project10Image,
+    title: "Pranjal Engineering Works",
+    description:
+      "A Flutter and Firebase-based business management application for handling customers, products, invoices, payments, reports, employees, and salary management.",
+    tech: ["Flutter", "Firebase"],
+    progress: "Completed",
+    githubLink: "",
+    apkLink: "",
+    showDisabledDownload: true,
+    hideLivePreview: true,
+  },
 
   {
     id: 9,
     img: project9Image,
     title: "Spring Hub India",
     description:
-      "Specializing in manufacturing precision springs with unmatched quality, durability, and trust. ",
+      "Specializing in manufacturing precision springs with unmatched quality, durability, and trust.",
     tech: ["React", "Tailwind"],
     progress: "Completed",
     githubLink: "",
     liveLink: "https://springhubindia.com",
   },
 
-  {
-  id: 8,
-  img: project8Image,
-  title: "Lesson Plan App",
-  description: "A modern and user-friendly Flutter app to help teachers plan their lessons efficiently. Try the demo with Phone No: 1234567890 and OTP: 123456.",
-  tech: ["Flutter", "Firebase"],
-  progress: "Completed",
-  githubLink: "https://github.com/TheCodeByDeepak/LessonPlan",
-  liveLink: "#",
-  apkLink: "https://drive.google.com/uc?export=download&id=1kdlmk-Ulod5aMPc46ZHHf-FUQr-rPMr5"
-  },
   
+
   {
     id: 6,
     img: project6Image,
@@ -89,19 +98,22 @@ const projects = [
       "A fun, personalized birthday web app built with React to surprise my sister Karishma on her special day!",
     tech: ["React", "Tailwind"],
     progress: "Completed",
-    githubLink: "https://github.com/TheCodeByDeepak/SisterBirthdaySpecial",
-    liveLink: "https://TheCodeByDeepak.github.io/SisterBirthdaySpecial",
+    githubLink:
+      "https://github.com/TheCodeByDeepak/SisterBirthdaySpecial",
+    liveLink:
+      "https://TheCodeByDeepak.github.io/SisterBirthdaySpecial",
   },
 
-    {
+  {
     id: 2,
     img: project2Image,
-    title: "Quick Learning Classroom ",
+    title: "Quick Learning Classroom",
     description:
       "Quick Learning is a classroom management web app with role-based access, enabling attendance, assignments, student tracking, and real-time chat.",
     tech: ["React", "Node.js", "MongoDB"],
     progress: "Completed",
-    githubLink: "https://github.com/TheCodeByDeepak/QuickLearningClassroom",
+    githubLink:
+      "https://github.com/TheCodeByDeepak/QuickLearningClassroom",
     liveLink: "#",
   },
 
@@ -113,13 +125,10 @@ const projects = [
       "A full-stack Doctor Appointment System. Patients can book appointments, doctors can manage bookings, and admins can oversee the entire system.",
     tech: ["React", "Node.js", "MongoDB"],
     progress: "Completed",
-    githubLink: "https://github.com/TheCodeByDeepak/DoctorAppointmentSystem",
+    githubLink:
+      "https://github.com/TheCodeByDeepak/DoctorAppointmentSystem",
     liveLink: "#",
   },
-
-
-
-
 ];
 
 export default function Projects() {
@@ -129,44 +138,57 @@ export default function Projects() {
       className="py-20 px-6 bg-gradient-to-br from-white via-indigo-50 to-purple-100 min-h-screen"
     >
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-12">
-         <h2 className="text-4xl font-extrabold text-indigo-800 mb-2">
- <MdOutlineRocketLaunch className="inline-block text-5xl mr-2 mb-1 text-purple-600 animate-rocketLaunch" />
 
-  My Projects
-</h2>
+        {/* Section Heading */}
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-extrabold text-indigo-800 mb-2">
+            <MdOutlineRocketLaunch className="inline-block text-5xl mr-2 mb-1 text-purple-600 animate-rocketLaunch" />
+            My Projects
+          </h2>
 
           <p className="text-gray-600 text-md">
             Here's a glimpse of the work I've done using modern technologies.
           </p>
         </div>
 
+        {/* Projects Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
           {projects.map((project) => (
             <div
               key={project.id}
               className="bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all duration-300 border border-gray-200 flex flex-col"
             >
+              {/* Project Image */}
               <img
                 src={project.img}
                 alt={project.title}
                 className="w-full h-48 object-cover rounded-t-xl"
               />
+
               <div className="p-5 flex flex-col flex-1">
+
+                {/* Title + Progress */}
                 <div className="flex justify-between items-center mb-3">
                   <h3 className="text-xl font-semibold text-indigo-700">
                     {project.title}
                   </h3>
+
                   <span
                     className={`text-xs font-semibold px-3 py-1 rounded-full shadow-sm ${
-                      progressColors[project.progress] || "bg-gray-100 text-gray-700"
+                      progressColors[project.progress] ||
+                      "bg-gray-100 text-gray-700"
                     }`}
                   >
                     {project.progress}
                   </span>
                 </div>
-                <p className="text-sm text-gray-600 mb-4">{project.description}</p>
 
+                {/* Description */}
+                <p className="text-sm text-gray-600 mb-4">
+                  {project.description}
+                </p>
+
+                {/* Technologies */}
                 <div className="flex flex-wrap gap-3 mb-4">
                   {project.tech.map((tech, i) => (
                     <span
@@ -179,13 +201,17 @@ export default function Projects() {
                   ))}
                 </div>
 
-                <div className="mt-auto flex justify-start gap-4">
+                {/* Buttons */}
+                <div className="mt-auto flex flex-wrap justify-start gap-4">
+
+                  {/* GitHub Button */}
                   <a
                     href={project.githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`flex items-center gap-2 px-4 py-2 rounded-full shadow-sm text-sm font-medium transition-all ${
-                      project.githubLink && project.githubLink !== "#"
+                      project.githubLink &&
+                      project.githubLink !== "#"
                         ? "bg-gray-100 text-gray-800 hover:bg-gray-200 hover:text-black"
                         : "opacity-50 cursor-not-allowed pointer-events-none"
                     }`}
@@ -193,45 +219,48 @@ export default function Projects() {
                     <FaGithub className="text-base" />
                     GitHub
                   </a>
-                  {project.id !== 8 && (
-                  <a
-                   href={project.liveLink}
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   className={`flex items-center gap-2 px-4 py-2 rounded-full shadow-sm text-sm font-medium transition-all ${
-                     project.liveLink && project.liveLink !== "#"
-                       ? "bg-purple-100 text-purple-700 hover:bg-purple-200 hover:text-purple-900"
-                       : "opacity-50 cursor-not-allowed pointer-events-none"
-                   }`}
-                 >
-                    <FaExternalLinkAlt className="text-base" />
-                    Live Preview
-                 </a>
+
+                  {/* Live Preview Button */}
+                  {!project.hideLivePreview && project.id !== 8 && (
+                    <a
+                      href={project.liveLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`flex items-center gap-2 px-4 py-2 rounded-full shadow-sm text-sm font-medium transition-all ${
+                        project.liveLink &&
+                        project.liveLink !== "#"
+                          ? "bg-purple-100 text-purple-700 hover:bg-purple-200 hover:text-purple-900"
+                          : "opacity-50 cursor-not-allowed pointer-events-none"
+                      }`}
+                    >
+                      <FaExternalLinkAlt className="text-base" />
+                      Live Preview
+                    </a>
                   )}
 
-
+                  {/* Download Button */}
                   {project.apkLink ? (
-  <a
-    href={project.apkLink}
-    download
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex items-center gap-2 px-4 py-2 rounded-full shadow-sm text-sm font-medium bg-blue-100 text-blue-700 hover:bg-blue-200 hover:text-blue-900"
-  >
-    <FaDownload className="text-base" />
-    Download
-  </a>
-) : project.showDisabledDownload ? (
-  <button
-    type="button"
-    disabled
-    className="flex items-center gap-2 px-4 py-2 rounded-full shadow-sm text-sm font-medium bg-gray-100 text-gray-400 cursor-not-allowed"
-    title="Download is currently unavailable"
-  >
-    <FaDownload className="text-base" />
-    Download
-  </button>
-) : null}
+                    <a
+                      href={project.apkLink}
+                      download
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 px-4 py-2 rounded-full shadow-sm text-sm font-medium bg-blue-100 text-blue-700 hover:bg-blue-200 hover:text-blue-900 transition-all"
+                    >
+                      <FaDownload className="text-base" />
+                      Download
+                    </a>
+                  ) : project.showDisabledDownload ? (
+                    <button
+                      type="button"
+                      disabled
+                      className="flex items-center gap-2 px-4 py-2 rounded-full shadow-sm text-sm font-medium bg-gray-100 text-gray-400 cursor-not-allowed"
+                      title="Download is currently unavailable"
+                    >
+                      <FaDownload className="text-base" />
+                      Download
+                    </button>
+                  ) : null}
 
                 </div>
               </div>
